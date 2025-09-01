@@ -1,33 +1,7 @@
-﻿class Engine
-{
-    public void Start() => Console.WriteLine("Engine started");
-}
+﻿using Ej02;
 
-class Lights
-{
-    public void TurnOn() => Console.WriteLine("Lights turned on");
-}
+var Account = new BankAccount(100);
+Account.Deposit(50);
+bool Ok = Account.WithDraw(30);
 
-class CarFacade
-{
-    private Engine Engine = new Engine();
-    private Lights Lights = new Lights();
-
-    public void StartCar()
-    {
-        Engine.Start();
-        Lights.TurnOn();
-        Console.WriteLine("Car is ready to go!");
-    }
-}
-
-
-
-class Program
-{
-    static void Main()
-    {
-        var Car = new CarFacade();
-        Car.StartCar();
-    }
-}
+Console.WriteLine(Account.GetBalance());

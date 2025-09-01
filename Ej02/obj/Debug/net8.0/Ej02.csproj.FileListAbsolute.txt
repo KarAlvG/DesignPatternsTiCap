@@ -12,3 +12,4 @@ C:\Users\User\source\repos\csdpat\Ej02\Ej02\obj\Debug\net8.0\refint\Ej02.dll
 C:\Users\User\source\repos\csdpat\Ej02\Ej02\obj\Debug\net8.0\Ej02.pdb
 C:\Users\User\source\repos\csdpat\Ej02\Ej02\obj\Debug\net8.0\Ej02.genruntimeconfig.cache
 C:\Users\User\source\repos\csdpat\Ej02\Ej02\obj\Debug\net8.0\ref\Ej02.dll
+C:\Users\User\source\repos\csdpat\Ej02\Ej02\obj\Debug\net8.0\Ej02.sourcelink.json
